@@ -6,3 +6,7 @@ venv/
 build/
 dist/
 *.spec
+
+# bootstrap.ps1 的環境快取（每台機器不同，不進版控）
+.ime-lock-python
+.ime-lock-deps
